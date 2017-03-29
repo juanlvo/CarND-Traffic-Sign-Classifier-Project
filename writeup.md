@@ -1,8 +1,6 @@
-#**Traffic Sign Recognition** 
+**Traffic Sign Recognition** 
 
-##Writeup Template
-
-###You can use this file as a template for your writeup if you want to submit it as a markdown file, but feel free to use some other method and submit a pdf if you prefer.
+Writeup
 
 ---
 
@@ -27,9 +25,33 @@ The goals / steps of this project are the following:
 [image6]: ./examples/placeholder.png "Traffic Sign 3"
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
+[image9]: ./examples/traffic_signs_examples.png "Example Data"
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
+###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
+
+Submission Files: Traffic_Sign_Classifier_juanlvo.ipynb
+
+
+
+Dataset Exploration: 
+
+Dataset Summary: the dataset chose for this project is: [German Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip) this dataset is recomend by Udacity
+
+Exploratory Visualization: ![alt text][image9]
+
+
+Design and Test a Model Architecture:
+
+Preprocessing: For the preprocessing was used LeNet technique
+
+Model Architecture: The model arquitecture is base in 5 Layers, 
+
+        1. Layer 1: Convolutional network. Input = 32x32x1. Output = 28x28x6.
+        2. Layer 2: Convolutional network. Output = 10x10x16.
+        3. Layer 3: Fully Connected. Input = 400. Output = 120.
+        4. Layer 4: Fully Connected. Input = 120. Output = 84.
+        5. Layer 5: Fully Connected. Input = 84. Output = 43.
 
 ---
 ###Writeup / README
