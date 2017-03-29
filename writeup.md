@@ -36,11 +36,11 @@ Submission Files: Traffic_Sign_Classifier_juanlvo.ipynb
 
 Dataset Exploration: 
 
-Dataset Summary: the dataset chose for this project is: 
+Dataset Summary: the dataset chose for this project is: [German Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip) this dataset is recomend by Udacity
 
-[German Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip) this dataset is recomend by Udacity
+Exploratory Visualization: 
 
-Exploratory Visualization: ![alt text][image9]
+![alt text][image9]
 
 
 Design and Test a Model Architecture:
