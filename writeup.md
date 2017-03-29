@@ -36,7 +36,9 @@ Submission Files: Traffic_Sign_Classifier_juanlvo.ipynb
 
 Dataset Exploration: 
 
-Dataset Summary: the dataset chose for this project is: [German Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip) this dataset is recomend by Udacity
+Dataset Summary: the dataset chose for this project is: 
+
+[German Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip) this dataset is recomend by Udacity
 
 Exploratory Visualization: ![alt text][image9]
 
@@ -47,11 +49,13 @@ Preprocessing: For the preprocessing was used LeNet technique
 
 Model Architecture: The model arquitecture is base in 5 Layers, 
 
-        1. Layer 1: Convolutional network. Input = 32x32x1. Output = 28x28x6.
-        2. Layer 2: Convolutional network. Output = 10x10x16.
-        3. Layer 3: Fully Connected. Input = 400. Output = 120.
-        4. Layer 4: Fully Connected. Input = 120. Output = 84.
-        5. Layer 5: Fully Connected. Input = 84. Output = 43.
+ 1. Layer 1: Convolutional network. Input = 32x32x1. Output = 28x28x6.
+ 2. Layer 2: Convolutional network. Output = 10x10x16.
+ 3. Layer 3: Fully Connected. Input = 400. Output = 120.
+ 4. Layer 4: Fully Connected. Input = 120. Output = 84.
+ 5. Layer 5: Fully Connected. Input = 84. Output = 43.
+
+Model Training:
 
 ---
 ###Writeup / README
