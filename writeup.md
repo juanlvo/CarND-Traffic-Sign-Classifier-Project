@@ -50,24 +50,36 @@ Design and Test a Model Architecture:
 | Criteria            |   Meets Specifications                |
 |---------------------|---------------------------------------|
 |Preprocessing| For the preprocessing was used LeNet technique |
-|Model Architecture|The model arquitecture is base in 5 Layers, |
-||1. Layer 1: Convolutional network. Input = 32x32x1. Output = 28x28x6.|
-||2. Layer 2: Convolutional network. Output = 10x10x16.|
-||3. Layer 3: Fully Connected. Input = 400. Output = 120.|
-||4. Layer 4: Fully Connected. Input = 120. Output = 84.|
-||5. Layer 5: Fully Connected. Input = 84. Output = 43.|
+|Model Architecture|The model arquitecture is base in 5 Layers, 
+1. Layer 1: Convolutional network. Input = 32x32x1. Output = 28x28x6.
+2. Layer 2: Convolutional network. Output = 10x10x16.
+3. Layer 3: Fully Connected. Input = 400. Output = 120.
+4. Layer 4: Fully Connected. Input = 120. Output = 84.
+5. Layer 5: Fully Connected. Input = 84. Output = 43.
 
 <table>
-  <tr>
-    <td>One</td>
-    <td>Two</td>
-  </tr>
-  <tr>
-    <td colspan="2">Three</td>
-  </tr>
+    <tr>
+        <th>Criteria</th>
+        <th>Meets Specifications</th>
+    <tr>
+    <tr>
+        <td>Preprocessing</td>
+        <td>For the preprocessing was used LeNet technique</td>
+    </tr>
+    <tr>
+        <td>Model Architecture</td>
+        <td>The model arquitecture is base in 5 Layers, <br/> 
+            1. Layer 1: Convolutional network. Input = 32x32x1. Output = 28x28x6. <br/> 
+            2. Layer 2: Convolutional network. Output = 10x10x16. <br/> 
+            3. Layer 3: Fully Connected. Input = 400. Output = 120. <br/> 
+            4. Layer 4: Fully Connected. Input = 120. Output = 84. <br/> 
+            5. Layer 5: Fully Connected. Input = 84. Output = 43.<br/> </td>
+    </tr>
+    <tr>
+        <td>Model Training</td>
+        <td>The model was trained for 30 Epochs, as well for improve the accuracy of the training there is a dropout in the 3rd Layer, because was overtrain LeNet, the batch size chose was 128 and the optimizer used is Adam, the sigma value for LeNet was modified to 0.05 because help to improve the results of the training.</td>
+    </tr>
 </table>
-
-Model Training: The model was trained for 30 Epochs, as well for improve the accuracy of the training there is a dropout in the 3rd Layer, because was overtrain LeNet, the batch size chose was 128 and the optimizer used is Adam, the sigma value for LeNet was modified to 0.05 because help to improve the results of the training.
 
 
 
