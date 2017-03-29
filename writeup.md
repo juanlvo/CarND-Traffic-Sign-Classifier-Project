@@ -33,9 +33,9 @@ The goals / steps of this project are the following:
 | Criteria            |   Meets Specifications                |
 |---------------------|---------------------------------------|
 | Submission Files    | Traffic_Sign_Classifier_juanlvo.ipynb |
-|---------------------|---------------------------------------|
+|                     |                                       |
 | Dataset Exploration:                                        |
-|-------------------------------------------------------------|
+|                     |                                       |
 
 
 
