@@ -30,11 +30,16 @@ The goals / steps of this project are the following:
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
 
-Submission Files: Traffic_Sign_Classifier_juanlvo.ipynb
+| Criteria            |   Meets Specifications                |
+|---------------------|---------------------------------------|
+| Submission Files    | Traffic_Sign_Classifier_juanlvo.ipynb |
+|---------------------|---------------------------------------|
+| Dataset Exploration:                                        |
+|-------------------------------------------------------------|
 
 
 
-Dataset Exploration: 
+
 
 Dataset Summary: the dataset chose for this project is: [German Dataset](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip) this dataset is recomend by Udacity
 
@@ -55,7 +60,9 @@ Model Architecture: The model arquitecture is base in 5 Layers,
  4. Layer 4: Fully Connected. Input = 120. Output = 84.
  5. Layer 5: Fully Connected. Input = 84. Output = 43.
 
-Model Training:
+Model Training: The model was trained for 30 Epochs, as well for improve the accuracy of the training there is a dropout in the 3rd Layer, because was overtrain LeNet, the batch size chose was 128 and the optimizer used is Adam, the sigma value for LeNet was modified to 0.05 because help to improve the results of the training.
+
+
 
 ---
 ###Writeup / README
