@@ -47,16 +47,6 @@ Dataset Exploration:
 
 Design and Test a Model Architecture:
 
-| Criteria            |   Meets Specifications                |
-|---------------------|---------------------------------------|
-|Preprocessing| For the preprocessing was used LeNet technique |
-|Model Architecture|The model arquitecture is base in 5 Layers, 
-1. Layer 1: Convolutional network. Input = 32x32x1. Output = 28x28x6.
-2. Layer 2: Convolutional network. Output = 10x10x16.
-3. Layer 3: Fully Connected. Input = 400. Output = 120.
-4. Layer 4: Fully Connected. Input = 120. Output = 84.
-5. Layer 5: Fully Connected. Input = 84. Output = 43.
-
 <table>
     <tr>
         <th>Criteria</th>
@@ -68,7 +58,7 @@ Design and Test a Model Architecture:
     </tr>
     <tr>
         <td>Model Architecture</td>
-        <td>The model arquitecture is base in 5 Layers, <br/> 
+        <td>The model arquitecture is base in 5 Layers: <br/> 
             1. Layer 1: Convolutional network. Input = 32x32x1. Output = 28x28x6. <br/> 
             2. Layer 2: Convolutional network. Output = 10x10x16. <br/> 
             3. Layer 3: Fully Connected. Input = 400. Output = 120. <br/> 
