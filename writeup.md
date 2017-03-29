@@ -57,6 +57,16 @@ Design and Test a Model Architecture:
 ||4. Layer 4: Fully Connected. Input = 120. Output = 84.|
 ||5. Layer 5: Fully Connected. Input = 84. Output = 43.|
 
+<table>
+  <tr>
+    <td>One</td>
+    <td>Two</td>
+  </tr>
+  <tr>
+    <td colspan="2">Three</td>
+  </tr>
+</table>
+
 Model Training: The model was trained for 30 Epochs, as well for improve the accuracy of the training there is a dropout in the 3rd Layer, because was overtrain LeNet, the batch size chose was 128 and the optimizer used is Adam, the sigma value for LeNet was modified to 0.05 because help to improve the results of the training.
 
 
