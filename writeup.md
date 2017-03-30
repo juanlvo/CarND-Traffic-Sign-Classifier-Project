@@ -28,16 +28,17 @@ The goals / steps of this project are the following:
 [image9]: ./examples/traffic_signs_examples.png "Example Data"
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
 
-Files Submitted:
+
+<b>Files Submitted:</b>
 
 | Criteria            |   Meets Specifications                |
 |---------------------|---------------------------------------|
 | Submission Files    | Traffic_Sign_Classifier_juanlvo.ipynb |
 
 
-Dataset Exploration:
+
+<b>Dataset Exploration:</b>
 
 | Criteria            |   Meets Specifications                |
 |---------------------|---------------------------------------|
@@ -45,7 +46,7 @@ Dataset Exploration:
 |Exploratory Visualization| ![alt text][image9] |
 
 
-Design and Test a Model Architecture:
+<b>Design and Test a Model Architecture:</b>
 
 <table>
     <tr>
@@ -69,7 +70,34 @@ Design and Test a Model Architecture:
         <td>Model Training</td>
         <td>The model was trained for 30 Epochs, as well for improve the accuracy of the training there is a dropout in the 3rd Layer, because was overtrain LeNet, the batch size chose was 128 and the optimizer used is Adam, the sigma value for LeNet was modified to 0.05 because help to improve the results of the training.</td>
     </tr>
+    <tr>
+        <td>Solution Approach</td>
+        <td>Using LeNet without anymodification in the dataset was reached 85% of accuracy of the test, but adding to the training dataset the same iamges rotated 5 degrees and -5 degrees help to reach 93% of accuracy which was the minimun need it for meet specifications</td>
+    </tr>
 </table>
+
+
+
+<b>Test a Model on New Images:</b>
+
+<table>
+    <tr>
+        <th>Criteria</th>
+        <th>Meets Specifications</th>
+    </tr>
+    <tr>
+        <td>Acquiring New Images</td>
+        <td>The new images (german traffic signs) was found it on google images with the specifications to be 32x32 pixels</td>
+    </tr>
+    <tr>
+        <td>Performance on New Images</td>
+        <td>The predictions normally reach 100% of accuracy, in some cases 75% of accuracy</td>
+    </tr>
+</table>
+
+<b>Suggestions for improvments</b>
+
+The accuracy of this project could be improve with a bigger training dataset, adding more images rotates, modifying the ligth over every image, but with the incresing of the training data set is going to be incresing the time for training, this point is important because if we are using a service like Amazon Web Service this implies an increase of the bill at the end of the month.
 
 
 
