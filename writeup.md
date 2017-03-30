@@ -31,6 +31,9 @@ The goals / steps of this project are the following:
 [image12]: ./code_images/original.png "Original"
 [image13]: ./code_images/5degrees.png "Rotation 5 degrees"
 [image14]: ./code_images/minus5degrees.png "Rotation -5 degrees"
+[image15]: ./code_images/lenet.png "LeNet"
+[image16]: ./code_images/3.png
+
 
 ## Rubric Points
 
@@ -142,44 +145,31 @@ Rotation 5 degrees
 Rotation -5 degrees
 ![alt text][image14]
 
-The arquitecture use was LeNet, here an iamge of the explanation of the arquitecture:
+The arquitecture use was LeNet, here an image of the explanation of the arquitecture:
 
+![alt text][image15]
 
-####2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
-
-The code for splitting the data into training and validation sets is contained in the fifth code cell of the IPython notebook.  
-
-To cross validate my model, I randomly split the training data into a training set and validation set. I did this by ...
-
-My final training set had X number of images. My validation set and test set had Y and Z number of images.
-
-The sixth code cell of the IPython notebook contains the code for augmenting the data set. I decided to generate additional data because ... To add more data to the the data set, I used the following techniques because ... 
-
-Here is an example of an original image and an augmented image:
-
-![alt text][image3]
-
-The difference between the original data set and the augmented data set is the following ... 
-
-
-####3. Describe, and identify where in your code, what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
-
-The code for my final model is located in the seventh cell of the ipython notebook. 
 
 My final model consisted of the following layers:
 
 | Layer         		|     Description	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Input         		| 32x32x3 RGB image   							| 
-| Convolution 3x3     	| 1x1 stride, same padding, outputs 32x32x64 	|
+| Convolution 3x3     	| 1x1 stride, same padding, outputs 28x28x6 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride,  outputs 16x16x64 				|
-| Convolution 3x3	    | etc.      									|
-| Fully connected		| etc.        									|
-| Softmax				| etc.        									|
+| Max pooling	      	| 2x2 stride,  Output 14x14x6 				|
+| Convolution 3x3	    | 2x2 stride,  Output 5x5x16					|
+| Fully connected		| Input = 400. Output = 120.				|
+| Dropout       		| Dropout of 0.99				|
+| Matmul        		| Output = 84.				|
+| Matmul        		| Output = 43.				|
 |						|												|
 |						|												|
  
+
+4. Training and optimizer
+
+
 
 
 ####4. Describe how, and identify where in your code, you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
