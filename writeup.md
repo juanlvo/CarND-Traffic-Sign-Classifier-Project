@@ -28,9 +28,9 @@ The goals / steps of this project are the following:
 [image9]: ./examples/traffic_signs_examples.png "Example Data"
 [image10]: ./code_images/1.png
 [image11]: ./code_images/2.png
-[image12]: ./code_images/original.png
-[image13]: ./code_images/5degrees.png
-[image14]: ./code_images/minus5degrees.png
+[image12]: ./code_images/original.png "Original"
+[image13]: ./code_images/5degrees.png "Rotation 5 degrees"
+[image14]: ./code_images/minus5degrees.png "Rotation -5 degrees"
 
 ## Rubric Points
 
@@ -112,9 +112,9 @@ The accuracy of this project could be improve with a bigger training dataset, ad
 
 [Project code](https://github.com/juanlvo/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_juanlvo.ipynb)
 
-###Data Set Summary & Exploration
+Data Set Summary & Exploration
 
-####1. Basic Summary:
+1. Basic Summary:
 
 * The size of training set is ? 104397
 * The size of test set is ? 12630
@@ -123,25 +123,24 @@ The accuracy of this project could be improve with a bigger training dataset, ad
 
 ![alt text][image10]
 
-####2. Exploratory visualization of the dataset: 
+2. Exploratory visualization of the dataset: 
 
 Here in the next image you can see where is the data exploration
 
 ![alt text][image11]
 
-###Design and Test a Model Architecture
+3. Design and Test a Model Architecture
 
-####1. Describe how, and identify where in your code, you preprocessed the image data. What tecniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc.
+For preprocessing the image was necessary to incresse the number of images in the training set, the technique selected was rotate images 5 degrees and -5 degrees, here some examples
 
-The code for this step is contained in the fourth code cell of the IPython notebook.
+![alt text][image12]
 
-As a first step, I decided to convert the images to grayscale because ...
+![alt text][image13]
 
-Here is an example of a traffic sign image before and after grayscaling.
+![alt text][image14]
 
-![alt text][image2]
+The arquitecture use was LeNet, here an iamge of the explanation of the arquitecture:
 
-As a last step, I normalized the image data because ...
 
 ####2. Describe how, and identify where in your code, you set up training, validation and testing data. How much data was in each set? Explain what techniques were used to split the data into these sets. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, identify where in your code, and provide example images of the additional data)
 
