@@ -33,6 +33,9 @@ The goals / steps of this project are the following:
 [image14]: ./code_images/minus5degrees.png "Rotation -5 degrees"
 [image15]: ./code_images/lenet.png "LeNet"
 [image16]: ./code_images/3.png
+[image17]: ./code_images/4.png
+[image18]: ./code_images/5.png
+
 
 
 ## Rubric Points
@@ -181,47 +184,65 @@ My final model results were:
  * Validation Accuracy = 0.945
 
 
-###Test a Model on New Images
+6. Test a Model on New Images
 
-####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
+For this project was tested the model on 5 new images of German traffic signs found it on internet
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+30 Km/h:
+![alt text][image4] 
 
-The first image might be difficult to classify because ...
+Crossing childrens:
+![alt text][image5]
 
-####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. Identify where in your code predictions were made. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
+No entry:
+![alt text][image6] 
 
-The code for making predictions on my final model is located in the tenth cell of the Ipython notebook.
+No truck passing:
+![alt text][image7]
+
+Right turn:
+![alt text][image8]
+
+Using softmax the prediction was accurate enough, here we can see the pice of code where is executing the predictions
+
+![alt text][image17]
 
 Here are the results of the prediction:
 
-| Image			        |     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| Stop Sign      		| Stop sign   									| 
-| U-turn     			| U-turn 										|
-| Yield					| Yield											|
-| 100 km/h	      		| Bumpy Road					 				|
-| Slippery Road			| Slippery Road      							|
+![alt text][image18]
 
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
+The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 80%. 
 
-####3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction and identify where in your code softmax probabilities were outputted. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
+Here we can see the accuracy of the prediction for every image
 
-The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
+<table>
+    <tr>
+        <th>Image number</th>
+        <th>Accuracy</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>100%</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>50%</td>
+    </tr>    
+    <tr>
+        <td>2</td>
+        <td>66,7%</td>
+    </tr>   
+    <tr>
+        <td>3</td>
+        <td>75%</td>
+    </tr>    
+    <tr>
+        <td>4</td>
+        <td>80%</td>
+    </tr>      
+</table>
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
-
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
-
-
-For the second image ... 
+With this kind of results is clear the algorithm need to be train with more images for fit in a real world where is need a higher accuracy.
