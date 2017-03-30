@@ -133,10 +133,13 @@ Here in the next image you can see where is the data exploration
 
 For preprocessing the image was necessary to incresse the number of images in the training set, the technique selected was rotate images 5 degrees and -5 degrees, here some examples
 
+Original
 ![alt text][image12]
 
+Rotation 5 degrees
 ![alt text][image13]
 
+Rotation -5 degrees
 ![alt text][image14]
 
 The arquitecture use was LeNet, here an iamge of the explanation of the arquitecture:
