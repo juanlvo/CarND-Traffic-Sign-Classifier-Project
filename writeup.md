@@ -30,14 +30,14 @@ The goals / steps of this project are the following:
 ## Rubric Points
 ###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
 
-Files Submitted:
+<b>Files Submitted:</b>
 
 | Criteria            |   Meets Specifications                |
 |---------------------|---------------------------------------|
 | Submission Files    | Traffic_Sign_Classifier_juanlvo.ipynb |
 
 
-Dataset Exploration:
+<b>Dataset Exploration:</b>
 
 | Criteria            |   Meets Specifications                |
 |---------------------|---------------------------------------|
@@ -45,7 +45,7 @@ Dataset Exploration:
 |Exploratory Visualization| ![alt text][image9] |
 
 
-Design and Test a Model Architecture:
+<b>Design and Test a Model Architecture:</b>
 
 <table>
     <tr>
