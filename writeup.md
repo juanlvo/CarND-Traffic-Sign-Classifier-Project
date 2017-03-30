@@ -107,7 +107,7 @@ The accuracy of this project could be improve with a bigger training dataset, ad
 
 
 ---
-###Writeup / README
+<b>Writeup / README </b>
 
 
 [Project code](https://github.com/juanlvo/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_juanlvo.ipynb)
