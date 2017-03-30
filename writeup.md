@@ -26,6 +26,11 @@ The goals / steps of this project are the following:
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 [image9]: ./examples/traffic_signs_examples.png "Example Data"
+[image10]: ./code_images/1.png
+[image11]: ./code_images/2.png
+[image12]: ./code_images/original.png
+[image13]: ./code_images/5degrees.png
+[image14]: ./code_images/minus5degrees.png
 
 ## Rubric Points
 
@@ -104,31 +109,25 @@ The accuracy of this project could be improve with a bigger training dataset, ad
 ---
 ###Writeup / README
 
-####1. Provide a Writeup / README that includes all the rubric points and how you addressed each one. You can submit your writeup as markdown or pdf. You can use this template as a guide for writing the report. The submission includes the project code.
 
-You're reading it! and here is a link to my [project code](https://github.com/udacity/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier.ipynb)
+[Project code](https://github.com/juanlvo/CarND-Traffic-Sign-Classifier-Project/blob/master/Traffic_Sign_Classifier_juanlvo.ipynb)
 
 ###Data Set Summary & Exploration
 
-####1. Provide a basic summary of the data set and identify where in your code the summary was done. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
+####1. Basic Summary:
 
-The code for this step is contained in the second code cell of the IPython notebook.  
+* The size of training set is ? 104397
+* The size of test set is ? 12630
+* The shape of a traffic sign image is ? (32, 32, 3)
+* The number of unique classes/labels in the data set is ? 43
 
-I used the pandas library to calculate summary statistics of the traffic
-signs data set:
+![alt text][image10]
 
-* The size of training set is ?
-* The size of test set is ?
-* The shape of a traffic sign image is ?
-* The number of unique classes/labels in the data set is ?
+####2. Exploratory visualization of the dataset: 
 
-####2. Include an exploratory visualization of the dataset and identify where the code is in your code file.
+Here in the next image you can see where is the data exploration
 
-The code for this step is contained in the third code cell of the IPython notebook.  
-
-Here is an exploratory visualization of the data set. It is a bar chart showing how the data ...
-
-![alt text][image1]
+![alt text][image11]
 
 ###Design and Test a Model Architecture
 
