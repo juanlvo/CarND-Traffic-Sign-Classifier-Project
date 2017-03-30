@@ -245,6 +245,8 @@ Here we can see the accuracy of the prediction for every image
     </tr>      
 </table>
 
-Conclusion:
+
+
+<b>Conclusion:</b>
 
 This solution is good enough for complete the objectives of this project but with this kind of results is clear the algorithm need to be train with more images for fit in a real world where is need a higher accuracy.
