@@ -28,7 +28,6 @@ The goals / steps of this project are the following:
 [image9]: ./examples/traffic_signs_examples.png "Example Data"
 
 ## Rubric Points
-###Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.
 
 
 <b>Files Submitted:</b>
