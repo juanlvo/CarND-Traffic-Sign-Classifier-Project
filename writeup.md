@@ -163,12 +163,15 @@ My final model consisted of the following layers:
 | Dropout       		| Dropout of 0.99				|
 | Matmul        		| Output = 84.				|
 | Matmul        		| Output = 43.				|
-|						|												|
-|						|												|
  
 
 4. Training and optimizer
 
+For the training was using the optimizer Adam with rate = 0.001
+
+Here the code where can found it all the call for the training
+
+![alt text][image16]
 
 
 
