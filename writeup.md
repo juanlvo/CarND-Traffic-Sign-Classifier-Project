@@ -20,7 +20,7 @@ The goals / steps of this project are the following:
 [image1]: ./examples/visualization.jpg "Visualization"
 [image2]: ./examples/grayscale.jpg "Grayscaling"
 [image3]: ./examples/random_noise.jpg "Random Noise"
-[image4]: ./traffic_images/30.jpg "Traffic Sign 30Km/h"
+[image4]: ./traffic_images/9.jpg "Traffic Sign 30Km/h"
 [image5]: ./traffic_images/children_crossing.jpg "Childrens crossing"
 [image6]: ./traffic_images/no_entry.jpg "No Entry"
 [image7]: ./traffic_images/no_truck_passing.jpg "No truck passing"
@@ -33,8 +33,8 @@ The goals / steps of this project are the following:
 [image14]: ./code_images/8.png "Rotation -10 degrees"
 [image15]: ./code_images/lenet.png "LeNet"
 [image16]: ./code_images/3.png
-[image17]: ./code_images/4.png
-[image18]: ./code_images/5.png
+[image17]: ./code_images/14.png
+[image18]: ./code_images/15.png
 
 
 
@@ -139,13 +139,13 @@ Here in the next image you can see where is the data exploration
 
 For preprocessing the image was necessary to incresse the number of images in the training set, the technique selected was rotate images 10 degrees and -10 degrees, here some examples
 
-Original
+Original:
 ![alt text][image12]
 
-Rotation 5 degrees
+Rotation 10 degrees:
 ![alt text][image13]
 
-Rotation -5 degrees
+Rotation -10 degrees:
 ![alt text][image14]
 
 The arquitecture use was LeNet, here an image of the explanation of the arquitecture:
@@ -179,9 +179,9 @@ Here the code where can found it all the call for the training
 5. Approach
 
 My final model results were:
- * Test Accuracy = 0.937
- * My Data Set Accuracy = 0.800
- * Validation Accuracy = 0.945
+ * Test Accuracy = 0.945
+ * My Data Set Accuracy = 0.600
+ * Validation Accuracy = 0.955
 
 
 6. Test a Model on New Images
@@ -190,20 +190,7 @@ For this project was tested the model on 5 new images of German traffic signs fo
 
 Here are five German traffic signs that I found on the web:
 
-30 Km/h:
 ![alt text][image4] 
-
-Crossing childrens:
-![alt text][image5]
-
-No entry:
-![alt text][image6] 
-
-No truck passing:
-![alt text][image7]
-
-Right turn:
-![alt text][image8]
 
 Using softmax the prediction was accurate enough, here we can see the pice of code where is executing the predictions
 
@@ -225,23 +212,23 @@ Here we can see the accuracy of the prediction for every image
     </tr>
     <tr>
         <td>1</td>
-        <td>100%</td>
+        <td>0%</td>
     </tr>
     <tr>
         <td>2</td>
-        <td>50%</td>
+        <td>0%</td>
     </tr>    
     <tr>
         <td>2</td>
-        <td>66,7%</td>
+        <td>33,33%</td>
     </tr>   
     <tr>
         <td>3</td>
-        <td>75%</td>
+        <td>50%</td>
     </tr>    
     <tr>
         <td>4</td>
-        <td>80%</td>
+        <td>60%</td>
     </tr>      
 </table>
 
