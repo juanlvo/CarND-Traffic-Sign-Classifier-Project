@@ -72,7 +72,7 @@ The goals / steps of this project are the following:
     </tr>
     <tr>
         <td>Solution Approach</td>
-        <td>Using LeNet without anymodification in the dataset was reached 85% of accuracy of the test, but adding to the training dataset the same iamges rotated 5 degrees and -5 degrees help to reach 93% of accuracy which was the minimun need it for meet specifications</td>
+        <td>Using LeNet without anymodification in the dataset was reached 85% of accuracy of the test, but adding to the training dataset the same iamges rotated 10 degrees and -10 degrees help to reach 93% of accuracy which was the minimun need it for meet specifications</td>
     </tr>
 </table>
 
@@ -87,17 +87,17 @@ The goals / steps of this project are the following:
     </tr>
     <tr>
         <td>Acquiring New Images</td>
-        <td>The new images (german traffic signs) was found it on google images with the specifications to be 32x32 pixels</td>
+        <td>The new images (german traffic signs) was found it on google images with the specifications to be 32x32 pixels but the images were rotated 20 degrees</td>
     </tr>
     <tr>
         <td>Performance on New Images</td>
-        <td>The predictions normally reach 100% of accuracy, in some cases 75% of accuracy</td>
+        <td>The accuracy is not good enough because in the dataset there is no images rotated at 20 degrees, the minimun accuracy was 0% and the maximun was 60%</td>
     </tr>
 </table>
 
 <b>Suggestions for improvments</b>
 
-The accuracy of this project could be improve with a bigger training dataset, adding more images rotates, modifying the ligth over every image, but with the incresing of the training data set is going to be incresing the time for training, this point is important because if we are using a service like Amazon Web Service this implies an increase of the bill at the end of the month.
+The accuracy of this project could be improve with a bigger training dataset, adding more images rotates with more degrees, modifying the ligth over every image, but with the incresing of the training data set is going to be incresing the time for training, this point is important because if we are using a service like Amazon Web Service this implies an increase of the bill at the end of the month.
 
 
 
