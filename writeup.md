@@ -200,10 +200,21 @@ Here are the results of the prediction:
 
 ![alt text][image18]
 
+The model was able to correctly guess 3 of the 5 traffic signs, in this case problem with the guessing of every image is related with the fact of the rotation of 20 degrees, in the training dataset there is no images rotated at 20 degree, so this is making difficult for the algoritm to recognize it.
 
-The model was able to correctly guess 5 of the 5 traffic signs, which gives an accuracy of 80%. 
+Analisys of every case:
 
-Here we can see the accuracy of the prediction for every image
+1. 30 Km/h: As you realize in the 5 posibilities of softmax, the algoritm was not able to detect correcly which image was the correct.
+
+2. Crossing childrens: we got the same situaion as the case before the algoritm was not able to recognize the right sign, but we can realized in the first guess the form of the sign was a triangle, but not the right one.
+
+3. No Entry: in this case softmax was able to recognize the right image.
+
+4. No passing for vehicles over 3.5 metric tons: in this case softmax was able to recognize the right image.
+
+5. Turn right ahead: in this case softmax was able to recognize the right image.
+
+Here we can see the accuracy of the prediction for every image:
 
 <table>
     <tr>
@@ -232,7 +243,7 @@ Here we can see the accuracy of the prediction for every image
     </tr>      
 </table>
 
-
+The accuracy of the training (94,5%) vs the accuracy of the new images (between 0% and 60%) show it there is a problem with the dataset of training because the gap of accuracy is too big and at the end the most important is to test the recognition of traffic sign in the real world images for any reason can be rotated, images not was put it in the right sense, images with low ilumination, images hit it by something, images with graffitis or stickers (quite commun nowadays).
 
 <b>Conclusion:</b>
 
