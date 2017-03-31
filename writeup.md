@@ -28,9 +28,9 @@ The goals / steps of this project are the following:
 [image9]: ./examples/traffic_signs_examples.png "Example Data"
 [image10]: ./code_images/1.png
 [image11]: ./code_images/2.png
-[image12]: ./code_images/original.png "Original"
-[image13]: ./code_images/5degrees.png "Rotation 5 degrees"
-[image14]: ./code_images/minus5degrees.png "Rotation -5 degrees"
+[image12]: ./code_images/6.png "Original"
+[image13]: ./code_images/7.png "Rotation 10 degrees"
+[image14]: ./code_images/8.png "Rotation -10 degrees"
 [image15]: ./code_images/lenet.png "LeNet"
 [image16]: ./code_images/3.png
 [image17]: ./code_images/4.png
@@ -83,7 +83,7 @@ The goals / steps of this project are the following:
     </tr>
     <tr>
         <td>Solution Approach</td>
-        <td>Using LeNet without anymodification in the dataset was reached 85% of accuracy of the test, but adding to the training dataset the same iamges rotated 10 degrees and -10 degrees help to reach 93% of accuracy which was the minimun need it for meet specifications</td>
+        <td>Using LeNet without any modification in the dataset was reached 85% of accuracy of the test, but adding to the training dataset the same iamges rotated 10 degrees and -10 degrees help to reach 93% of accuracy which was the minimun need it for meet specifications</td>
     </tr>
 </table>
 
@@ -98,7 +98,7 @@ The goals / steps of this project are the following:
     </tr>
     <tr>
         <td>Acquiring New Images</td>
-        <td>The new images (german traffic signs) was found it on google images with the specifications to be 32x32 pixels but the images were rotated 20 degrees</td>
+        <td>The new images (german traffic signs) was found it on google images with the specifications to be 32x32 pixels but the images were rotated 20 degrees to have a characteristic that make it difficult for the classifier</td>
     </tr>
     <tr>
         <td>Performance on New Images</td>
@@ -137,7 +137,7 @@ Here in the next image you can see where is the data exploration
 
 3. Design and Test a Model Architecture
 
-For preprocessing the image was necessary to incresse the number of images in the training set, the technique selected was rotate images 5 degrees and -5 degrees, here some examples
+For preprocessing the image was necessary to incresse the number of images in the training set, the technique selected was rotate images 10 degrees and -10 degrees, here some examples
 
 Original
 ![alt text][image12]
